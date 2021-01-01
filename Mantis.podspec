@@ -29,11 +29,11 @@ Pod::Spec.new do |s|
   }
   
   s.info_plist = {
-     "CFBundleIdentifier" => Bundle.main.bundleIdentifier ?? ""
+     "CFBundleIdentifier" => Bundle.main.bundleIdentifier
   }
   
   s.pod_target_xcconfig = {
-    "PRODUCT_BUNDLE_IDENTIFIER": Bundle.main.bundleIdentifier ?? ""
+    "PRODUCT_BUNDLE_IDENTIFIER": Bundle.main.bundleIdentifier
   }
 
 end
