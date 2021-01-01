@@ -126,7 +126,7 @@ public struct Config {
     var customRatios: [(width: Int, height: Int)] = []
     
     static private var bundleIdentifier: String = {
-        return "com.echo.framework.Mantis"
+        return Bundle.main.bundleIdentifier ?? ""
     } ()
     
     static private(set) var bundle: Bundle? = {
