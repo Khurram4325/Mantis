@@ -29,11 +29,11 @@ Pod::Spec.new do |s|
   }
   
   s.info_plist = {
-     "CFBundleIdentifier" => Bundle.main.bundleIdentifier
+     "CFBundleIdentifier" => "com.echo.framework.Mantis"
   }
   
   s.pod_target_xcconfig = {
-    "PRODUCT_BUNDLE_IDENTIFIER": Bundle.main.bundleIdentifier
+    "PRODUCT_BUNDLE_IDENTIFIER": "com.echo.framework.Mantis"
   }
 
 end
